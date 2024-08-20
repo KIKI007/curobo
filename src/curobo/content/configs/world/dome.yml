@@ -1,0 +1,220 @@
+mesh:
+  obj_0:
+    file_path: scene/dome/0.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_1:
+    file_path: scene/dome/1.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_10:
+    file_path: scene/dome/10.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_11:
+    file_path: scene/dome/11.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_12:
+    file_path: scene/dome/12.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_13:
+    file_path: scene/dome/13.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_14:
+    file_path: scene/dome/14.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_15:
+    file_path: scene/dome/15.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_16:
+    file_path: scene/dome/16.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_17:
+    file_path: scene/dome/17.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_18:
+    file_path: scene/dome/18.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_19:
+    file_path: scene/dome/19.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_2:
+    file_path: scene/dome/2.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_20:
+    file_path: scene/dome/20.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_21:
+    file_path: scene/dome/21.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_22:
+    file_path: scene/dome/22.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_23:
+    file_path: scene/dome/23.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_24:
+    file_path: scene/dome/24.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_25:
+    file_path: scene/dome/25.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_26:
+    file_path: scene/dome/26.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_27:
+    file_path: scene/dome/27.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_28:
+    file_path: scene/dome/28.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_29:
+    file_path: scene/dome/29.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_3:
+    file_path: scene/dome/3.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_30:
+    file_path: scene/dome/30.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_31:
+    file_path: scene/dome/31.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_32:
+    file_path: scene/dome/32.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_33:
+    file_path: scene/dome/33.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_34:
+    file_path: scene/dome/34.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_35:
+    file_path: scene/dome/35.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_36:
+    file_path: scene/dome/36.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_37:
+    file_path: scene/dome/37.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_38:
+    file_path: scene/dome/38.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_39:
+    file_path: scene/dome/39.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_4:
+    file_path: scene/dome/4.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_40:
+    file_path: scene/dome/40.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_41:
+    file_path: scene/dome/41.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_42:
+    file_path: scene/dome/42.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_43:
+    file_path: scene/dome/43.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_44:
+    file_path: scene/dome/44.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_45:
+    file_path: scene/dome/45.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_46:
+    file_path: scene/dome/46.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_47:
+    file_path: scene/dome/47.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_48:
+    file_path: scene/dome/48.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_49:
+    file_path: scene/dome/49.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_5:
+    file_path: scene/dome/5.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_50:
+    file_path: scene/dome/50.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_51:
+    file_path: scene/dome/51.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_52:
+    file_path: scene/dome/52.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_53:
+    file_path: scene/dome/53.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_54:
+    file_path: scene/dome/54.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_55:
+    file_path: scene/dome/55.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_56:
+    file_path: scene/dome/56.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_57:
+    file_path: scene/dome/57.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_58:
+    file_path: scene/dome/58.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_59:
+    file_path: scene/dome/59.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_6:
+    file_path: scene/dome/6.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_60:
+    file_path: scene/dome/60.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_61:
+    file_path: scene/dome/61.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_62:
+    file_path: scene/dome/62.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_63:
+    file_path: scene/dome/63.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_64:
+    file_path: scene/dome/64.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_65:
+    file_path: scene/dome/65.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_66:
+    file_path: scene/dome/66.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_67:
+    file_path: scene/dome/67.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_68:
+    file_path: scene/dome/68.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_69:
+    file_path: scene/dome/69.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_7:
+    file_path: scene/dome/7.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_70:
+    file_path: scene/dome/70.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_71:
+    file_path: scene/dome/71.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_72:
+    file_path: scene/dome/72.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_8:
+    file_path: scene/dome/8.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_9:
+    file_path: scene/dome/9.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]

@@ -1,0 +1,360 @@
+planning:
+  n_robot: 2
+  base_link_names: [ "robotA_base_link", "robotB_base_link" ]
+  tool_link_names: [ "robotA_tool0", "robotB_tool0" ]
+  tools:
+    n_spheres: [ 40, 40 ]
+    shapes: [ "L", "L" ]
+    radii: [ 0.02, 0.02 ]
+    densities: [ 0.5, 0.5 ]
+    rot_samples: [ 8, 8 ]
+    planarity: [ 2, 2 ]
+  jnds: [ [ 0, 1, 2, 3, 4, 5 ], [ 6, 7, 8, 9, 10, 11 ] ]
+  pickup_stations: [ [ [ 0.99999821724785165, -0.00068303927539953453, 0.0017603858856880736, 0.56850545598822178 ],
+                       [ 0.00068089813369059927, 0.99999902812626973, 0.0012166035702906881, -1.3873027650040048 ],
+                       [ -0.0017612151628363763, -0.0012154027579239191, 0.99999771045602193, 0.082853306670397378 ],
+                       [ -0.0, 0.0, -0.0, 1.0 ] ],
+    [ [ 0.9999887925522849, -0.0013983221132863612, 0.00452321402225608, 1.9808512722548923 ],
+      [ 0.0013915807672465403, 0.99999791693737305, 0.0014931925137177037, -1.3198728687935226 ],
+      [ -0.0045252925642293223, -0.001486881361201166, 0.99998865539116288, 0.083390788335858709 ],
+      [ 0.0, 0.0, 0.0, 1.0 ] ] ]
+
+  tool_frames: [ [ [ 0, 0, 1, 0.1363 ],
+                   [ 0, -1, 0, 0 ],
+                   [ 1, 0, 0, 0.142 ],
+                   [ 0, 0, 0, 1 ] ],
+    [ [ 0, 0, 1, 0.1363 ], #68
+      [ 0, -1, 0, 0 ],
+      [ 1, 0, 0, 0.142 ], #42
+      [ 0, 0, 0, 1 ] ]
+  ]
+  ik_solver: "abb2600"
+  joint_names: [ [ 'robotA_joint_1', 'robotA_joint_2', 'robotA_joint_3',  'robotA_joint_4',  'robotA_joint_5', 'robotA_joint_6' ],
+                 [ 'robotB_joint_1', 'robotB_joint_2', 'robotB_joint_3',  'robotB_joint_4',  'robotB_joint_5', 'robotB_joint_6' ] ]
+
+robot_cfg:
+  kinematics:
+    usd_path: "robot/abb_irb2600_dual.usd"
+    usd_robot_root: "/robot"
+    isaac_usd_path: ""
+    usd_flip_joints: { }
+    usd_flip_joint_limits: [ ]
+
+    urdf_path: "robot/abb_irb2600_dual.urdf"
+    asset_root_path: "robot"
+
+    base_link: "world"
+    ee_link: "robotA_tool0"
+    link_names: [ 'robotA_base_link', "robotA_link_1", "robotA_link_2",
+                  "robotA_link_3", "robotA_link_4", "robotA_link_5", "robotA_link_6", 'robotA_tool0', 'robotA_flange', 'robotA_tool0',
+                  'robotB_base_link', "robotB_link_1", "robotB_link_2",
+                  "robotB_link_3", "robotB_link_4", "robotB_link_5", "robotB_link_6", 'robotB_tool0', 'robotB_flange', 'robotB_tool0' ]
+    lock_joints: null
+    extra_links: null
+
+    collision_link_names: [ 'robotA_base_link', 'robotB_base_link', 'robotA_link_1', 'robotA_link_2', 'robotA_link_3', 'robotA_link_4', 'robotB_link_1', 'robotB_link_2', 'robotB_link_3', 'robotB_link_4', "robotA_tool0", "robotB_tool0" ]
+    collision_spheres:
+      robotA_base_link:
+        - "center": [ -0.004, -0.017, 0.171 ]
+          "radius": 0.143
+        - "center": [ -0.268, -0.066, 0.167 ]
+          "radius": 0.134
+        - "center": [ -0.247, 0.094, 0.171 ]
+          "radius": 0.126
+        - "center": [ -0.004, 0.15, 0.129 ]
+          "radius": 0.108
+        - "center": [ 0.038, -0.149, 0.129 ]
+          "radius": 0.108
+      robotA_link_1:
+        - "center": [ -0.061, 0.0, -0.0 ]
+          "radius": 0.2
+        - "center": [ 0.121, 0.197, 0.0 ]
+          "radius": 0.12
+        - "center": [ 0.135, 0.0, -0.0 ]
+          "radius": 0.2
+      robotA_link_2:
+        - "center": [ 0.001, -0.155, 0.001 ]
+          "radius": 0.14
+        - "center": [ 0.004, -0.166, 0.872 ]
+          "radius": 0.11
+        - "center": [ 0.002, -0.157, 0.158 ]
+          "radius": 0.136
+        - "center": [ 0.002, -0.159, 0.309 ]
+          "radius": 0.133
+        - "center": [ 0.003, -0.161, 0.457 ]
+          "radius": 0.13
+        - "center": [ 0.003, -0.163, 0.6 ]
+          "radius": 0.116
+        - "center": [ 0.003, -0.164, 0.738 ]
+          "radius": 0.113
+      robotA_link_3:
+        - "center": [ 0.024, 0.026, 0.121 ]
+          "radius": 0.21
+        - "center": [ 0.024, 0.026, 0.0511 ]
+          "radius": 0.21
+      robotA_link_4:
+        - "center": [ 0.252, 0.0, -0.0 ]
+          "radius": 0.12
+        - "center": [ 0.778, 0.0, -0.0 ]
+          "radius": 0.12
+        - "center": [ 0.357, 0.0, -0.0 ]
+          "radius": 0.11
+        - "center": [ 0.463, 0.0, -0.0 ]
+          "radius": 0.11
+        - "center": [ 0.568, 0.0, -0.0 ]
+          "radius": 0.11
+        - "center": [ 0.673, 0.0, -0.0 ]
+          "radius": 0.11
+      robotA_tool0:
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+      robotB_base_link:
+        - "center": [ -0.004, -0.017, 0.171 ]
+          "radius": 0.143
+        - "center": [ -0.268, -0.066, 0.167 ]
+          "radius": 0.134
+        - "center": [ -0.247, 0.094, 0.171 ]
+          "radius": 0.126
+        - "center": [ -0.004, 0.15, 0.129 ]
+          "radius": 0.108
+        - "center": [ 0.038, -0.149, 0.129 ]
+          "radius": 0.108
+      robotB_link_1:
+        - "center": [ -0.061, 0.0, -0.0 ]
+          "radius": 0.2
+        - "center": [ 0.121, 0.197, 0.0 ]
+          "radius": 0.12
+        - "center": [ 0.135, 0.0, -0.0 ]
+          "radius": 0.2
+      robotB_link_2:
+        - "center": [ 0.001, -0.155, 0.001 ]
+          "radius": 0.14
+        - "center": [ 0.004, -0.166, 0.872 ]
+          "radius": 0.11
+        - "center": [ 0.002, -0.157, 0.158 ]
+          "radius": 0.136
+        - "center": [ 0.002, -0.159, 0.309 ]
+          "radius": 0.133
+        - "center": [ 0.003, -0.161, 0.457 ]
+          "radius": 0.13
+        - "center": [ 0.003, -0.163, 0.6 ]
+          "radius": 0.116
+        - "center": [ 0.003, -0.164, 0.738 ]
+          "radius": 0.113
+      robotB_link_3:
+        - "center": [ 0.024, 0.026, 0.121 ]
+          "radius": 0.21
+        - "center": [ 0.024, 0.026, 0.0511 ]
+          "radius": 0.21
+      robotB_link_4:
+        - "center": [ 0.252, 0.0, -0.0 ]
+          "radius": 0.12
+        - "center": [ 0.778, 0.0, -0.0 ]
+          "radius": 0.12
+        - "center": [ 0.357, 0.0, -0.0 ]
+          "radius": 0.11
+        - "center": [ 0.463, 0.0, -0.0 ]
+          "radius": 0.11
+        - "center": [ 0.568, 0.0, -0.0 ]
+          "radius": 0.11
+        - "center": [ 0.673, 0.0, -0.0 ]
+          "radius": 0.11
+      robotB_tool0:
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+        - "center": [ 0, 0.0, -0.0 ]
+          "radius": 0.0
+    collision_sphere_buffer: 0.0
+    extra_collision_spheres: { }
+    self_collision_ignore: { "robotA_base_link": [ "robotA_link_1", "robotA_link_2" ],
+                             "robotA_link_1": [ "robotA_link_2" ],
+                             "robotA_link_2": [ "robotA_link_3", "robotA_link_4" ],
+                             "robotA_link_3": [ "robotA_link_4" ],
+                             "robotA_link_4": [ "robotA_tool0" ],
+                             "robotB_base_link": [ "robotB_link_1", "robotB_link_2" ],
+                             "robotB_link_1": [ "robotB_link_2" ],
+                             "robotB_link_2": [ "robotB_link_3", "robotB_link_4" ],
+                             "robotB_link_3": [ "robotB_link_4" ],
+                             "robotB_link_4": [ "robotB_tool0" ],
+    }
+    self_collision_buffer: { 'robotA_base_link': 0.0,
+                             'robotA_link_1': 0.0,
+                             'robotA_link_2': 0,
+                             'robotA_link_3': 0,
+                             'robotA_link_4': 0,
+                             'robotB_base_link': 0.0,
+                             'robotB_link_1': 0.0,
+                             'robotB_link_2': 0,
+                             'robotB_link_3': 0,
+                             'robotB_link_4': 0
+    }
+
+    use_global_cumul: True
+    mesh_link_names: [ 'robotA_base_link', "robotA_link_1", "robotA_link_2",
+                       "robotA_link_3", "robotA_link_4", "robotA_link_5", "robotA_link_6", "robotA_flange",
+                       'robotB_base_link', "robotB_link_1", "robotB_link_2",
+                       "robotB_link_3", "robotB_link_4", "robotB_link_5", "robotB_link_6", 'robotB_flange' ] # List[str]
+
+    cspace:
+      joint_names: [ 'robotA_joint_1', 'robotB_joint_1', 'robotA_joint_2', 'robotB_joint_2', 'robotA_joint_3', 'robotB_joint_3', 'robotA_joint_4', 'robotB_joint_4', 'robotA_joint_5', 'robotB_joint_5', 'robotA_joint_6', 'robotB_joint_6' ]
+      retract_config: [ -1.7, 1.7, 0.5, 0.5, 0.0, 0.0, 0, 0.0, 0.0, 0.0, 0, 0 ]
+      null_space_weight: [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
+      cspace_distance_weight: [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
+      max_jerk: 500.0
+      max_acceleration: 150.0
+
+

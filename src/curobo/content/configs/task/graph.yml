@@ -31,7 +31,7 @@ graph:
   max_nodes: 5000 # node list
   steer_delta_buffer: 500 # for steering
   sample_pts: 1500
-  node_similarity_distance: 0.1
+  node_similarity_distance: 0.02
   
   rejection_ratio: 10 
   k_nn: 15

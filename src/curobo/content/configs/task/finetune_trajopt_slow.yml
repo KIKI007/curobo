@@ -19,9 +19,9 @@ model:
       acceleration: 1.0
     enable: False
   dt_traj_params:
-    base_dt: 0.15
+    base_dt: 1.0
     base_ratio: 1.0
-    max_dt: 0.15
+    max_dt: 1.0
   vel_scale: 1.0
   control_space: 'POSITION'
   state_finite_difference_mode: "CENTRAL" 

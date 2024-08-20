@@ -1,0 +1,122 @@
+mesh:
+  obj_0:
+    file_path: scene/rulin/0.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_1:
+    file_path: scene/rulin/1.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_10:
+    file_path: scene/rulin/10.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_11:
+    file_path: scene/rulin/11.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_12:
+    file_path: scene/rulin/12.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_13:
+    file_path: scene/rulin/13.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_14:
+    file_path: scene/rulin/14.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_15:
+    file_path: scene/rulin/15.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_16:
+    file_path: scene/rulin/16.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_17:
+    file_path: scene/rulin/17.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_18:
+    file_path: scene/rulin/18.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_19:
+    file_path: scene/rulin/19.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_2:
+    file_path: scene/rulin/2.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_20:
+    file_path: scene/rulin/20.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_21:
+    file_path: scene/rulin/21.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_22:
+    file_path: scene/rulin/22.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_23:
+    file_path: scene/rulin/23.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_24:
+    file_path: scene/rulin/24.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_25:
+    file_path: scene/rulin/25.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_26:
+    file_path: scene/rulin/26.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_27:
+    file_path: scene/rulin/27.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_28:
+    file_path: scene/rulin/28.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_29:
+    file_path: scene/rulin/29.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_3:
+    file_path: scene/rulin/3.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_30:
+    file_path: scene/rulin/30.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_31:
+    file_path: scene/rulin/31.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_32:
+    file_path: scene/rulin/32.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_33:
+    file_path: scene/rulin/33.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_34:
+    file_path: scene/rulin/34.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_35:
+    file_path: scene/rulin/35.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_36:
+    file_path: scene/rulin/36.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_37:
+    file_path: scene/rulin/37.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_4:
+    file_path: scene/rulin/4.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_5:
+    file_path: scene/rulin/5.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_6:
+    file_path: scene/rulin/6.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_7:
+    file_path: scene/rulin/7.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_8:
+    file_path: scene/rulin/8.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_9:
+    file_path: scene/rulin/9.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+
+cuboid:
+  obj_38:
+    dims: [4.0, 4.0, 0.2] # x, y, z
+    pose: [1.1, 0.0, -0.1, 1, 0, 0, 0.0] # x, y, z, qx, qy, qz, qw
+    color: [1.0, 1.0, 1.0]
+    texture: "visible"

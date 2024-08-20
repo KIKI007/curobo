@@ -1,0 +1,191 @@
+mesh:
+  obj_0:
+    file_path: scene/mario/0.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_1:
+    file_path: scene/mario/1.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_10:
+    file_path: scene/mario/10.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_11:
+    file_path: scene/mario/11.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_12:
+    file_path: scene/mario/12.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_13:
+    file_path: scene/mario/13.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_14:
+    file_path: scene/mario/14.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_15:
+    file_path: scene/mario/15.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_16:
+    file_path: scene/mario/16.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_17:
+    file_path: scene/mario/17.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_18:
+    file_path: scene/mario/18.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_19:
+    file_path: scene/mario/19.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_2:
+    file_path: scene/mario/2.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_20:
+    file_path: scene/mario/20.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_21:
+    file_path: scene/mario/21.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_22:
+    file_path: scene/mario/22.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_23:
+    file_path: scene/mario/23.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_24:
+    file_path: scene/mario/24.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_25:
+    file_path: scene/mario/25.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_26:
+    file_path: scene/mario/26.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_27:
+    file_path: scene/mario/27.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_28:
+    file_path: scene/mario/28.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_29:
+    file_path: scene/mario/29.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_3:
+    file_path: scene/mario/3.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_30:
+    file_path: scene/mario/30.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_31:
+    file_path: scene/mario/31.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_32:
+    file_path: scene/mario/32.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_33:
+    file_path: scene/mario/33.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_34:
+    file_path: scene/mario/34.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_35:
+    file_path: scene/mario/35.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_36:
+    file_path: scene/mario/36.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_37:
+    file_path: scene/mario/37.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_38:
+    file_path: scene/mario/38.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_39:
+    file_path: scene/mario/39.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_4:
+    file_path: scene/mario/4.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_40:
+    file_path: scene/mario/40.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_41:
+    file_path: scene/mario/41.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_42:
+    file_path: scene/mario/42.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_43:
+    file_path: scene/mario/43.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_44:
+    file_path: scene/mario/44.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_45:
+    file_path: scene/mario/45.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_46:
+    file_path: scene/mario/46.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_47:
+    file_path: scene/mario/47.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_48:
+    file_path: scene/mario/48.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_49:
+    file_path: scene/mario/49.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_5:
+    file_path: scene/mario/5.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_50:
+    file_path: scene/mario/50.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_51:
+    file_path: scene/mario/51.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_52:
+    file_path: scene/mario/52.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_53:
+    file_path: scene/mario/53.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_54:
+    file_path: scene/mario/54.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_55:
+    file_path: scene/mario/55.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_56:
+    file_path: scene/mario/56.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_57:
+    file_path: scene/mario/57.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_58:
+    file_path: scene/mario/58.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_59:
+    file_path: scene/mario/59.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_6:
+    file_path: scene/mario/6.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_60:
+    file_path: scene/mario/60.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_61:
+    file_path: scene/mario/61.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_7:
+    file_path: scene/mario/7.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_8:
+    file_path: scene/mario/8.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_9:
+    file_path: scene/mario/9.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_62:
+    file_path: scene/mario/room.obj
+    pose: [ 0, 0, 0, 1, 0, 0, 0 ]
+    texture: "room"

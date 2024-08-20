@@ -1,0 +1,28 @@
+mesh:
+  obj_0:
+    file_path: scene/stack/0.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_1:
+    file_path: scene/stack/1.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_2:
+    file_path: scene/stack/2.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_3:
+    file_path: scene/stack/3.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_4:
+    file_path: scene/stack/4.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_5:
+    file_path: scene/stack/5.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_6:
+    file_path: scene/stack/6.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_7:
+    file_path: scene/stack/7.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
+  obj_8:
+    file_path: scene/stack/8.obj
+    pose: [0, 0, 0, 1, 0, 0, 0]
