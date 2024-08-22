@@ -3,28 +3,21 @@ planning:
   base_link_names: [ "base_link" ]
   tool_link_names: [ "tool0"]
   tools:
-    n_spheres: [50]
+    n_spheres: [40]
     shapes: [ "L" ]
     radii: [ 0.02 ]
     densities: [ 0.5 ]
     rot_samples: [ 8 ]
-    planarity: [ 13 ]
+    planarity: [ 2 ]
   jnds: [ [ 0, 1, 2, 3, 4, 5 ] ]
-  part_preloading_frames: [ [ [ 1, 0, 0, 0 ],
-                           [ 0, -1, 0, -1 ],
-                           [ 0, 0, -1, 0.5 ],
-                           [ 0, 0, 0, 1 ] ]
-  ]
-  part_loading_frames: [ [ [ 1, 0, 0, 0 ],
-                           [ 0, 1, 0, -1 ],
-                           [ 0, 0, 1, 0.1 ],
-                           [ 0, 0, 0, 1 ] ]
-  ]
-  tool_frames: [[[0, 0, 1, 0.136],
-                 [0, 1, 0, 0],
-                 [-1, 0, 0, 0.142],
-                 [0, 0, 0, 1]]
-  ]
+  pickup_stations: [ [ [ 0.99999821724785165, -0.00068303927539953453, 0.0017603858856880736, 0.56850545598822178 ],
+                       [ 0.00068089813369059927, 0.99999902812626973, 0.0012166035702906881, -1.3873027650040048 ],
+                       [ -0.0017612151628363763, -0.0012154027579239191, 0.99999771045602193, 0.082853306670397378 ],
+                       [ -0.0, 0.0, -0.0, 1.0 ] ]]
+  tool_frames: [ [ [ 0, 0, 1, 0.1363 ],
+                   [ 0, -1, 0, 0 ],
+                   [ 1, 0, 0, 0.142 ],
+                   [ 0, 0, 0, 1 ] ]]
   ik_solver: "abb2600"
   joint_names: [ ['joint_1', 'joint_2', 'joint_3',  'joint_4',  'joint_5', 'joint_6']]
 
@@ -37,7 +30,7 @@ robot_cfg:
     usd_flip_joint_limits: [ ]
 
     urdf_path: "robot/abb_irb2600_single.urdf"
-    asset_root_path: "robot/"
+    asset_root_path: "robot"
 
     base_link: "world"
     ee_link: "tool0"
@@ -121,7 +114,7 @@ robot_cfg:
 
     cspace:
       joint_names: [ 'joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6' ]
-      retract_config: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+      retract_config: [ -1.7, 0.5, 0.0, 0.0, 0.0, 0.0 ]
       null_space_weight: [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
       cspace_distance_weight: [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
       max_jerk: 500.0

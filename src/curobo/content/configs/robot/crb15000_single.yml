@@ -1,0 +1,142 @@
+planning:
+  n_robot: 1
+  base_link_names: [ "base_link" ]
+  tool_link_names: [ "tool0"]
+  tools:
+    n_spheres: [40]
+    shapes: [ "L" ]
+    radii: [ 0.02 ]
+    densities: [ 0.5 ]
+    rot_samples: [ 8 ]
+    planarity: [ 2 ]
+  jnds: [ [ 0, 1, 2, 3, 4, 5 ] ]
+  pickup_stations: [ [ [ 0.99999821724785165, -0.00068303927539953453, 0.0017603858856880736, 0.56850545598822178 ],
+                       [ 0.00068089813369059927, 0.99999902812626973, 0.0012166035702906881, -1.3873027650040048 ],
+                       [ -0.0017612151628363763, -0.0012154027579239191, 0.99999771045602193, 0.082853306670397378 ],
+                       [ -0.0, 0.0, -0.0, 1.0 ] ]]
+  tool_frames: [ [ [ 0, 0, 1, 0.1363 ],
+                   [ 0, -1, 0, 0 ],
+                   [ 1, 0, 0, 0.142 ],
+                   [ 0, 0, 0, 1 ] ]]
+  ik_solver: "gofa"
+  joint_names: [ ['joint_1', 'joint_2', 'joint_3',  'joint_4',  'joint_5', 'joint_6']]
+
+robot_cfg:
+  kinematics:
+    usd_path: "robot/abb_crb15000/crb15000.usd"
+    usd_robot_root: "/robot"
+    isaac_usd_path: ""
+    usd_flip_joints: { }
+    usd_flip_joint_limits: [ ]
+
+    urdf_path: "robot/abb_crb15000/crb15000.urdf"
+    asset_root_path: "/robot/crb15000_description"
+
+    base_link: "base_link"
+    ee_link: "tool0"
+    link_names: [ "base_link", "link_1", "link_2", "link_3", "link_4", "link_5", "link_6",  'tool0', 'flange']
+    lock_joints: { }
+    extra_links: null
+
+    collision_link_names: [ "base_link", "link_1", "link_2", "link_3", "link_4", "link_5", "link_6", "tool0" ]
+    collision_spheres:
+      base_link:
+        - "center": [ 0.0, 0.0, 0.117 ]
+          "radius": 0.1
+      link_1:
+        - "center": [ 0.0, 0.0, 0.0 ]
+          "radius": 0.1
+      link_2:
+        - "center": [ 0.0, -0.1, 0.0 ]
+          "radius": 0.08
+        - "center": [ 0.0, -0.115, 0.44 ]
+          "radius": 0.08
+        - "center": [ 0.0, -0.144, 0.316 ]
+          "radius": 0.08
+        - "center": [ 0.0, -0.144, 0.236 ]
+          "radius": 0.08
+        - "center": [ 0.0, -0.144, 0.156 ]
+          "radius": 0.08
+        - "center": [ 0.0, -0.144, 0.076 ]
+          "radius": 0.08
+      link_3:
+        - "center": [ -0.0, 0.019, 0.029 ]
+          "radius": 0.105
+        - "center": [ 0.067, -0.011, 0.127 ]
+          "radius": 0.06
+      link_4:
+        - "center": [ 0.112, -0.0, 0.0 ]
+          "radius": 0.06
+        - "center": [ 0.202, -0.0, 0.0 ]
+          "radius": 0.06
+        - "center": [ 0.262, 0.081, 0.0 ]
+          "radius": 0.06
+        - "center": [ 0.472, 0.09, 0.0 ]
+          "radius": 0.06
+        - "center": [ 0.332, 0.084, 0.0 ]
+          "radius": 0.06
+        - "center": [ 0.402, 0.087, 0.0 ]
+          "radius": 0.06
+      link_5:
+        - "center": [ -0.0, -0.061, 0.0 ]
+          "radius": 0.06
+        - "center": [ 0.0, 0.038, -0.0 ]
+          "radius": 0.06
+        - "center": [ -0.098, -0.0, 0.085 ]
+          "radius": 0.06
+        - "center": [ 0.047, -0.0, 0.08 ]
+          "radius": 0.06
+        - "center": [ -0.05, -0.0, 0.084 ]
+          "radius": 0.06
+        - "center": [ -0.001, -0.0, 0.082 ]
+          "radius": 0.06
+      link_6:
+        - "center": [ -0.0, -0.0, 0.0 ]
+          "radius": 0.03
+        - "center": [ 0.03, -0.0, 0.00 ]
+          "radius": 0.03
+        - "center": [ 0.06, -0.0, 0.00 ]
+          "radius": 0.03
+        - "center": [ 0.09, -0.0, 0.00 ]
+          "radius": 0.03
+        - "center": [ 0.10, -0.0, 0.0 ]
+          "radius": 0.03
+        - "center": [ 0.10, -0.0, -0.03 ]
+          "radius": 0.05
+        - "center": [ 0.10, -0.0, -0.05 ]
+          "radius": 0.05
+        - "center": [ 0.10, -0.0, -0.10 ]
+          "radius": 0.1
+        - "center": [ 0.10, -0.0, -0.3 ]
+          "radius": 0.15
+        - "center": [ 0.10, -0.0, -0.5 ]
+          "radius": 0.2
+    collision_sphere_buffer: 0.0
+    extra_collision_spheres: { }
+    self_collision_ignore: { "base_link": [ "link_1", "link_2" ],
+                             "link_1": ["link_2"],
+                             "link_2": [ "link_3" ],
+                             "link_3": [ "link_4" ],
+                             "link_4": [ "link_5" ],
+                             "link_5": [ "link_6" ]
+    }
+    self_collision_buffer: { 'base_link': 0.0,
+                             'link_1': 0.0,
+                             'link_2': 0,
+                             'link_3': 0,
+                             'link_4': 0,
+                             'link_5': 0.0,
+                             'link_6': 0.0
+    }
+
+    use_global_cumul: True
+    mesh_link_names: [ "base_link", "link_1", "link_2", "link_3", "link_4", "link_5", "link_6" ]
+
+    cspace:
+      joint_names: [ 'joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6' ]
+      retract_config: [ -1.57079632679, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+      null_space_weight: [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
+      cspace_distance_weight: [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
+      max_jerk: 500.0
+      max_acceleration: 50.0
+

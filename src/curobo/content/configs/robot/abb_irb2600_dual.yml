@@ -34,14 +34,14 @@ planning:
 
 robot_cfg:
   kinematics:
-    usd_path: "robot/abb_irb2600_dual.usd"
+    usd_path: "robot/abb_irb2600/abb_irb2600_dual.usd"
     usd_robot_root: "/robot"
     isaac_usd_path: ""
     usd_flip_joints: { }
     usd_flip_joint_limits: [ ]
 
-    urdf_path: "robot/abb_irb2600_dual.urdf"
-    asset_root_path: "robot"
+    urdf_path: "robot/abb_irb2600/abb_irb2600_dual.urdf"
+    asset_root_path: "/robot/irb2600_descirption"
 
     base_link: "world"
     ee_link: "robotA_tool0"
